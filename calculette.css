@@ -1,0 +1,688 @@
+.corps {
+  width: 400px;
+  height: 600px;
+  border: 2px solid black;
+  border-style: outset;
+  position: relative;
+  margin: auto;
+  vertical-align: auto;
+  color: grey;
+  background-color:grey;
+  z-index: 0;
+
+}
+
+#affichage {
+  position: absolute;
+  width:200px;
+  height: 50px;
+  top:20px;
+  left: 100px;
+  background-color: white;
+  color: black;
+}
+
+.bouton1 {
+
+  position: absolute;
+  width:90px;
+  margin-left:8px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#3A3636;
+  top: 200px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+
+}
+
+.bouton1:hover {
+  position: absolute;
+  width:90px;
+  margin-left:8px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#B0A5A5;
+  top: 200px;
+  border-style: outset;
+  border: 2px solid black;
+  z-index: 1;
+
+
+
+
+}
+.bouton1:active {
+  position: absolute;
+  width:90px;
+  margin-left:8px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#BCAEAE;
+  top: 200px;
+  border-style: inset;
+  border: 2px solid black;
+  z-index: 1;
+
+
+
+}
+.bouton1p{
+  position: absolute;
+  top: -15px;
+  left: 28px;
+  font-weight: bold;
+  font-size: 40px;
+  z-index: 1;
+  color: black;
+}
+
+.bouton2 {
+
+  position: absolute;
+  width:90px;
+  left: 106px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#3A3636;
+  top: 200px;
+  border-style: outset;
+  border: 2px solid black;
+  z-index: 1;
+}
+.bouton2:hover {
+
+  position: absolute;
+  width:90px;
+  left: 106px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#B0A5A5;
+  top: 200px;
+  border-style: outset;
+  border: 2px solid black;
+  z-index: 1;
+}
+.bouton2:active {
+
+  position: absolute;
+  width:90px;
+  left: 106px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#BCAEAE;
+  top: 200px;
+  border-style: outset;
+  border: 2px solid black;
+  z-index: 1;
+}
+
+.bouton3 {
+
+position: absolute;
+width:90px;
+left: 204px;
+height:90px;
+-moz-border-box;
+box-sizing: border-box;
+background-color:#3A3636;
+top: 200px;
+border-style: outset;
+border: 2px solid black ;
+z-index: 1;
+
+}
+.bouton3:hover {
+position: absolute;
+width:90px;
+left: 204px;
+height:90px;
+-moz-border-box;
+box-sizing: border-box;
+background-color:#B0A5A5;
+top: 200px;
+border-style: outset;
+border: 2px solid black;
+z-index: 1;
+}
+.bouton3:active {
+
+position: absolute;
+width:90px;
+left: 204px;
+height:90px;
+-moz-border-box;
+box-sizing: border-box;
+background-color:#BCAEAE;
+top: 200px;
+border-style: outset;
+border: 2px solid black;
+z-index: 1;
+}
+
+.bouton4 {
+
+position: absolute;
+width:90px;
+left: 302px;
+height:90px;
+-moz-border-box;
+box-sizing: border-box;
+background-color:#3A3636;
+top: 200px;
+border-style: outset;
+border: 2px solid black ;
+z-index: 1;
+}
+
+.bouton4:hover {
+
+position: absolute;
+width:90px;
+left: 302px;
+height:90px;
+-moz-border-box;
+box-sizing: border-box;
+background-color:#B0A5A5;
+top: 200px;
+border-style: outset;
+border: 2px solid black ;
+z-index: 1;
+}
+.bouton4:active {
+  position: absolute;
+  width:90px;
+  left: 302px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#BCAEAE;
+  top: 200px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+}
+
+.bouton5 {
+
+  position: absolute;
+  width:90px;
+  margin-left: 8px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#3A3636;
+  top: 298px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+}
+.bouton5:hover{
+  position: absolute;
+  width:90px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#B0A5A5;
+  top: 298px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+}
+.bouton5:active {
+position: absolute;
+width:90px;
+height:90px;
+-moz-border-box;
+box-sizing: border-box;
+background-color:#BCAEAE;
+top: 298px;
+border-style: outset;
+border: 2px solid black ;
+z-index: 1;
+}
+.bouton6 {
+  position: absolute;
+  width:90px;
+  left: 106px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#3A3636;
+  top: 298px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+
+}
+.bouton6:hover {
+  position: absolute;
+  width:90px;
+  left: 106px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#B0A5A5;
+  top: 298px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+}
+.bouton6:active {
+  position: absolute;
+  width:90px;
+  left: 106px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#BCAEAE;
+  top: 298px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+
+}
+.bouton7 {
+  position: absolute;
+  width:90px;
+  left: 204px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#3A3636;
+  top: 298px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+}
+.bouton7:hover{
+  position: absolute;
+  width:90px;
+  left: 204px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#B0A5A5;
+  top: 298px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+}
+.bouton7:active {
+  position: absolute;
+  width:90px;
+  left: 204px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#BCAEAE;
+  top: 298px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+
+}
+.bouton8 {
+  position: absolute;
+  width:90px;
+  left: 302px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#3A3636;
+  top: 298px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+}
+.bouton8:hover{
+  position: absolute;
+  width:90px;
+  left: 302px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#B0A5A5;
+  top: 298px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+}
+.bouton8:active {
+  position: absolute;
+  width:90px;
+  left: 302px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#BCAEAE;
+  top: 298px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+}
+
+.bouton11 {
+  position: absolute;
+  width:90px;
+  margin-left:8px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#3A3636;
+  top: 400px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+}
+
+.bouton11:hover {
+  position: absolute;
+  width:90px;
+  margin-left:8px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#B0A5A5;
+  top: 400px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+}
+
+.bouton11:active {
+  position: absolute;
+  width:90px;
+  margin-left:8px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#BCAEAE;
+  top: 400px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+
+}
+.bouton15 {
+  position: absolute;
+  width:90px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#3A3636;
+  top: 400px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+  left: 106px;
+}
+.bouton15:hover {
+  position: absolute;
+  width:90px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#B0A5A5;
+  top: 400px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+  left: 106px;
+}
+.bouton15:active {
+  position: absolute;
+  width:90px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#BCAEAE;
+  top: 400px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+  left: 106px;
+}
+.bouton9 {
+  position: absolute;
+  width:90px;
+  left:204px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#3A3636;
+  top: 400px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+
+}
+.bouton9:hover {
+  position: absolute;
+  width:90px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#B0A5A5;
+  top: 400px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+  left: 204px;
+}
+.bouton9:active {
+  position: absolute;
+  width:90px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#BCAEAE;
+  top: 400px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+  left: 204px;
+}
+.bouton10 {
+  position: absolute;
+  width:90px;
+  left: 302px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#3A3636;
+  top: 400px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+}
+.bouton10:hover {
+  position: absolute;
+  width:90px;
+  left: 302px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#B0A5A5;
+  top: 400px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+}
+.bouton10:active {
+  position: absolute;
+  width:90px;
+  left: 302px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#BCAEAE;
+  top: 400px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+}
+.bouton12 {
+  position: absolute;
+  width:90px;
+  left: 8px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#3A3636;
+  top: 498px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+}
+.bouton12:hover {
+  position: absolute;
+  width:90px;
+  left: 8px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#B0A5A5;
+  top: 498px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+}
+.bouton12:active {
+  position: absolute;
+  width:90px;
+  left: 8px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#BCAEAE;
+  top: 498px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+}
+.bouton13 {
+  position: absolute;
+  width:90px;
+  left: 104px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#3A3636;
+  top: 498px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+}
+.bouton13:hover {
+  position: absolute;
+  width:90px;
+  left: 104px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#B0A5A5;
+  top: 498px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+}
+.bouton13:active {
+  position: absolute;
+  width:90px;
+  left: 104px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#BCAEAE;
+  top: 498px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+}
+.bouton14 {
+  position: absolute;
+  width:90px;
+  left: 204px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#3A3636;
+  top: 498px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+}
+.bouton14:hover {
+  position: absolute;
+  width:90px;
+  left: 204px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#B0A5A5;
+  top: 498px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+}
+.bouton14:active {
+  position: absolute;
+  width:90px;
+  left: 204px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#BCAEAE;
+  top: 498px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+}
+.bouton16{
+  position: absolute;
+  width:90px;
+  left: 302px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#3A3636;
+  top: 498px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+}
+.bouton16:hover {
+  position: absolute;
+  width:90px;
+  left: 302px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#B0A5A5;
+  top: 498px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+}
+.bouton16:active {
+  position: absolute;
+  width:90px;
+  left: 302px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#BCAEAE;
+  top: 498px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+
+}

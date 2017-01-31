@@ -686,3 +686,44 @@ z-index: 1;
   z-index: 1;
 
 }
+
+.bouton17{
+  position: absolute;
+  width:90px;
+  left: 398px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#3A3636;
+  top: 498px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+}
+.bouton17:hover {
+  position: absolute;
+  width:90px;
+  left: 398px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#B0A5A5;
+  top: 498px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+}
+.bouton17:active {
+  position: absolute;
+  width:90px;
+  left: 398px;
+  height:90px;
+  -moz-border-box;
+  box-sizing: border-box;
+  background-color:#BCAEAE;
+  top: 498px;
+  border-style: outset;
+  border: 2px solid black ;
+  z-index: 1;
+
+}

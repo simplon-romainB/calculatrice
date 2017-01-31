@@ -7,94 +7,49 @@
   </head>
   <body>
 <div class= "corps">
-  <script> //une suite de fonction affiche les inputs sur l'écran grace a .innerHTML//
-    function rese1() {
-    var affichage1 = document.getElementById("affichage");
-    affichage1.innerHTML=affichage1.innerHTML +1;
+  <script> //une fonction gére les opérations avec un booléen pour le reset après une opération//
+    init = true;
+    affichage1 = document.getElementById("affichage");
+    function rese(caractere) {
+        if (init === true){
+          affichage1 = document.getElementById("affichage");
+          affichage1.innerHTML=affichage1.innerHTML + caractere ;
+        }
+        else {
+          affichage1.innerHTML= '';
+          affichage1.innerHTML=affichage1.innerHTML + caractere ;
+          init = true;
+        }
   }
-  function rese2() {
-  var affichage1 = document.getElementById("affichage");
-  affichage1.innerHTML=affichage1.innerHTML +"2";
-  resultab.push(2);
-  }
-  function rese3() {
-  var affichage1 = document.getElementById("affichage");
-  affichage1.innerHTML=affichage1.innerHTML +"3";
-}
-  function rese4() {
-    var affichage1 = document.getElementById("affichage");
-    affichage1.innerHTML=affichage1.innerHTML +"4";
-}
-function rese5() {
-  var affichage1 = document.getElementById("affichage");
-  affichage1.innerHTML=affichage1.innerHTML +"5";
-}
-function rese6() {
-  var affichage1 = document.getElementById("affichage");
-  affichage1.innerHTML=affichage1.innerHTML +"6";
-}
-function rese7() {
-  var affichage1 = document.getElementById("affichage");
-  affichage1.innerHTML=affichage1.innerHTML +"7";
-}
-function rese8() {
-  var affichage1 = document.getElementById("affichage");
-  affichage1.innerHTML=affichage1.innerHTML +"8";
-}
-function rese9() {
-  var affichage1 = document.getElementById("affichage");
-  affichage1.innerHTML=affichage1.innerHTML +"9";
-}
-function rese10() {
-  var affichage1 = document.getElementById("affichage");
-  affichage1.innerHTML=affichage1.innerHTML +"0";
-}
+  
 
-function rese11() {
-  var affichage1 = document.getElementById("affichage");
-  affichage1.innerHTML=affichage1.innerHTML +"+";
-
-}
-function rese12() {
-  var affichage1 = document.getElementById("affichage");
-  affichage1.innerHTML=affichage1.innerHTML +"-";
-}
-function rese13() {
-  var affichage1 = document.getElementById("affichage");
-  affichage1.innerHTML=affichage1.innerHTML +"*";
-}
-function rese14() {
-  var affichage1 = document.getElementById("affichage");
-  affichage1.innerHTML=affichage1.innerHTML +"/";
-}
 function rese15() { // le resultat est calculé grâce a une combinaison de .innerText (transforme ma div en string) et eval qui calcule une string//
-  var affichage1 = document.getElementById("affichage");
-  affichage1.innerHTML= eval(affichage1.innerText).toFixed(14);
+  affichage1 = document.getElementById("affichage");
+  this.affichage1.innerHTML= eval(affichage1.innerHTML).toFixed(14);
+  init = false;
 }
-function rese16() {
-  var affichage1 = document.getElementById("affichage");
-  affichage1.innerHTML=affichage1.innerHTML +".";
-}
+
+
 
   </script>
   <div id= "affichage"></div>  // div vide qui sert d'affichage //
   //onclick permet d'appeller les fonctions d'affichage des inputs //
-  <div class= "bouton1" onclick="rese1()"><p class="bouton1p">1</p></div>
-  <div class= "bouton2" onclick="rese2()"><p class="bouton1p">2</p></div>
-  <div class= "bouton3" onclick="rese3()"><p class="bouton1p">3</p></div>
-  <div class= "bouton4" onclick="rese4()"><p class="bouton1p">4</p></div>
-  <div class= "bouton5" onclick="rese5()"><p class="bouton1p">5</p></div>
-  <div class= "bouton6" onclick="rese6()"><p class="bouton1p">6</p></div>
-  <div class= "bouton7" onclick="rese7()"><p class="bouton1p">7</p></div>
-  <div class= "bouton8" onclick="rese8()"><p class="bouton1p">8</p></div>
-  <div class= "bouton9" onclick="rese9()"><p class="bouton1p">9</p></div>
-  <div class= "bouton10" onclick="rese10()"><p class="bouton1p">0</p></div>
-  <div class= "bouton11" onclick="rese11()"><p class="bouton1p">+</p></div>
-  <div class= "bouton12" onclick="rese12()"><p class= "bouton1p">-</p></div>
-  <div class= "bouton13" onclick="rese13()"><p class= "bouton1p">*</p></div>
-  <div class= "bouton14" onclick="rese14()"><p class="bouton1p">/</p></div>
+  <div class= "bouton1" onclick="rese(1)"><p class="bouton1p">1</p></div>
+  <div class= "bouton2" onclick="rese(2)"><p class="bouton1p">2</p></div>
+  <div class= "bouton3" onclick="rese(3)"><p class="bouton1p">3</p></div>
+  <div class= "bouton4" onclick="rese(4)"><p class="bouton1p">4</p></div>
+  <div class= "bouton5" onclick="rese(5)"><p class="bouton1p">5</p></div>
+  <div class= "bouton6" onclick="rese(6)"><p class="bouton1p">6</p></div>
+  <div class= "bouton7" onclick="rese(7)"><p class="bouton1p">7</p></div>
+  <div class= "bouton8" onclick="rese(8)"><p class="bouton1p">8</p></div>
+  <div class= "bouton9" onclick="rese(9)"><p class="bouton1p">9</p></div>
+  <div class= "bouton10" onclick="rese(0)"><p class="bouton1p">0</p></div>
+  <div class= "bouton11" onclick="rese('+')"><p class="bouton1p">+</p></div>
+  <div class= "bouton12" onclick="rese('-')"><p class= "bouton1p">-</p></div>
+  <div class= "bouton13" onclick="rese('*')"><p class= "bouton1p">*</p></div>
+  <div class= "bouton14" onclick="rese('/')"><p class="bouton1p">/</p></div>
   <div class= "bouton15" onclick="rese15()"><p class= "bouton1p">=</p></div>
-  <div class= "bouton16" onclick="rese16()"><p class= "bouton1p">.</p></div>
+  <div class= "bouton16" onclick="rese('.')"><p class= "bouton1p">.</p></div>
 
 
   </div>

@@ -8,26 +8,26 @@
   <body>
 <div class= "corps">
   <script> //une fonction gére les opérations avec un booléen pour le reset après une opération//
-    init = true;
+   
     affichage1 = document.getElementById("affichage");
     function rese(caractere) {
-        if (init === true){
+       
           affichage1 = document.getElementById("affichage");
           affichage1.innerHTML=affichage1.innerHTML + caractere ;
         }
-        else {
-          affichage1.innerHTML= '';
-          affichage1.innerHTML=affichage1.innerHTML + caractere ;
-          init = true;
-        }
-  }
   
 
-function rese15() { // le resultat est calculé grâce a une combinaison de .innerText (transforme ma div en string) et eval qui calcule une string//
-  affichage1 = document.getElementById("affichage");
-  this.affichage1.innerHTML= eval(affichage1.innerHTML).toFixed(14);
-  init = false;
-}
+    function rese15() { // le resultat est calculé grâce a une combinaison de .innerText (transforme ma div en string) et eval qui calcule une string//
+      affichage1 = document.getElementById("affichage");
+      this.affichage1.innerHTML= eval(affichage1.innerHTML).toFixed(14);
+       
+    }
+
+    function reset() {
+      affichage1 = document.getElementById("affichage");
+      affichage1.innerHTML= '';
+    }
+
 
 
 
@@ -50,6 +50,7 @@ function rese15() { // le resultat est calculé grâce a une combinaison de .inn
   <div class= "bouton14" onclick="rese('/')"><p class="bouton1p">/</p></div>
   <div class= "bouton15" onclick="rese15()"><p class= "bouton1p">=</p></div>
   <div class= "bouton16" onclick="rese('.')"><p class= "bouton1p">.</p></div>
+  <div class= "bouton17" onclick="reset()"><p class= "bouton1p">c</p></div>
 
 
   </div>
